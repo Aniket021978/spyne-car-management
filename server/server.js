@@ -19,7 +19,7 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 app.use(cors({
-    origin: 'https://spyne-car-management-9uux.vercel.app',
+    origin: 'https://spyne-car-management-hqwv.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
